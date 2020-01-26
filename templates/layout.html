@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="{{url_for('static', filename='img/favicon.ico')}}" type="image/x-icon">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.css" />-->
+<!--    <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js' defer></script>-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/layout.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %} {% endblock %}</title>
+    {%block style%}{%endblock%}
+    {%block script%}{%endblock%}
+</head>
+<body>
+<header>
+    <div class="transparent">
+    <div class='logo'>
+    <img id = 'bee' src='static/img/BeeLogo.png' alt='logo bee'>
+    </div>
+        <nav>{%block nav%}{%endblock%}</nav>
+    </div>
+</header>
+<div class="main">
+    {%block content%}{%endblock%}
+</div>
+<footer id="footer">
+    <i>2020 Created by Aleksandra Kołacz</i>
+</footer>
+
+</body>
+</html>

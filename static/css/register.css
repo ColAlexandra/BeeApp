@@ -1,0 +1,80 @@
+label {
+    width: 20vw;
+}
+
+input {
+    width: 23vw;
+    padding: 3px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.register_div {
+    font-size: 22px;
+    text-align: center;
+}
+
+.pRegisterUsername {
+    position: absolute;
+    top: 30%;
+    left:40%;
+}
+
+.pPasswordRegister {
+    position: absolute;
+    top: 37%;
+    left:40%;
+}
+
+.pPasswordConfirm {
+    position: absolute;
+    top: 44%;
+    left:40%;
+}
+
+.pEmail {
+    position: absolute;
+    top: 51%;
+    left:40%;
+}
+
+.buttonSave {
+    font-family: 'Libre Baskerville', serif;
+    width: 15vw;
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 5px 16px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.3);
+}
+
+.buttonSave:hover {
+    background-color: #FF8D3D;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9), 0 6px 20px 0 rgba(0,0,0,0.3);
+}
+
+.message {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 600;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #F7603E;
+    font-size: 20px;
+    position: absolute;
+    top: 22%;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
